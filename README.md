@@ -16,8 +16,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-step1:- First you have to sign up employer/manager.
-step2:- After SignUp click on the Login Button After you login.
+step1:- First you have to sign up employer/manager.\
+step2:- After SignUp click on the Login Button After you login.\
 step3:- Choose department based on employess list and click the department link.
 step4:- existing or you can create new employee means you can create.
 step5:- based on location and Name filter, I will implement.
@@ -30,8 +30,8 @@ step5:- based on location and Name filter, I will implement.
 # `node server.js`
 
 step1:- Worked in CRUD operations in employee and Department.
-step2:- Worked in Routes part.
-step3:- Connect the Database.
+step2:- Worked in Routes part.\
+step3:- Connect the Database.\
 
 
 
