@@ -1,21 +1,21 @@
-// Login.js
 
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate
-import '../assests/Signup.css'; // Import CSS file
+import { Link, useNavigate } from 'react-router-dom'; 
+
+import '../assests/Signup.css'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       await axios.post('http://localhost:5000/api/login', { email, password });
       alert('Login successful!');
-      navigate('/departments'); // Navigate to departments page after successful login
+      navigate('/departments'); 
     } catch (error) {
       console.error(error);
       alert('Error logging in');

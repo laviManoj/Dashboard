@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../assests/Department.css';
 import { Link } from 'react-router-dom';
+
+import '../assests/Department.css';
 
 const DepartmentList = () => {
   const [departments, setDepartments] = useState([]);

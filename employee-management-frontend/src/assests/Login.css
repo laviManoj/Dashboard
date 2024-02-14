@@ -1,8 +1,7 @@
-/* Login.css */
 
 .login-container {
-    background-color: #c7e1ca; /* Background color for the whole container */
-    height: 100vh; /* Make the container full height of the viewport */
+    background-color: #c7e1ca; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +14,7 @@
     padding: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
   input, button {
