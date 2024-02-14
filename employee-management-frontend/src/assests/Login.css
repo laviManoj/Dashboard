@@ -1,7 +1,7 @@
 /* Login.css */
 
 .login-container {
-    background-color: #f0f0f0; /* Background color for the whole container */
+    background-color: #c7e1ca; /* Background color for the whole container */
     height: 100vh; /* Make the container full height of the viewport */
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
   
   .login-form {
     width: 300px;
+    height: 138px;
     padding: 20px;
     background-color: white;
     border-radius: 8px;

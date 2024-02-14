@@ -1,5 +1,13 @@
 /* DepartmentList.css */
+.department-container{
+  background-color: #c7e1ca;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
 table {
     width: 100%;
     border-collapse: collapse;
