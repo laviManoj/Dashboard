@@ -1,5 +1,3 @@
-// controllers/departmentController.js
-
 const Department = require('../models/Department');
 
 exports.getAllDepartments = async (req, res) => {

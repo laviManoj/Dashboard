@@ -1,4 +1,3 @@
-// server.js
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -20,6 +19,7 @@ mongoose.connect('mongodb+srv://traveller:Manoj1999@traveller.ots9ysb.mongodb.ne
 })
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('Error connecting to MongoDB:', err));
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -29,8 +29,6 @@ app.use(cors());
 app.use('/api', routes);
 app.use('/api/departments', departmentRoutes);
 app.use('/api/employees', employeeRoutes);
-
-
 
 
 // Start server

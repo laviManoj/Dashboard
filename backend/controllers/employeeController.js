@@ -1,16 +1,12 @@
-// controllers/employeeController.js
-
 const Employee = require('../models/Employee');
 
 exports.getAllEmployees = async (req, res) => {
   try {
-    // Check if the department query parameter is present in the request URL
     if (req.query.department) {
-      // If department is provided, filter employees by department
+
       const employees = await Employee.find({ department: req.query.department });
       res.status(200).json(employees);
     } else {
-      // If no department is provided, return all employees
       const employees = await Employee.find();
       res.status(200).json(employees);
     }

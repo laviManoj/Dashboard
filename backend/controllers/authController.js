@@ -1,5 +1,3 @@
-// controllers/authController.js
-
 const bcrypt = require('bcryptjs');
 const Employee = require('../models/Login');
 

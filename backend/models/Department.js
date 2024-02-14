@@ -1,5 +1,3 @@
-// models/Department.js
-
 const mongoose = require('mongoose');
 
 const departmentSchema = new mongoose.Schema({
@@ -11,7 +9,7 @@ const departmentSchema = new mongoose.Schema({
     type: String,
     required: true
   }
-  // Add more fields as needed
+  
 });
 
 const Department = mongoose.model('Department', departmentSchema);
